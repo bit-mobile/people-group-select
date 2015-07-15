@@ -1,0 +1,60 @@
+.group-select{
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	display: none;
+	background-color: #fff;
+	font-size: .34rem;
+	z-index: 10;
+	overflow: hidden;
+}
+.group-select .bd{
+	position: absolute;
+	top: .96rem;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	overflow-y: auto; 
+}
+
+.group-select .item{
+	position: relative;
+	height: 1.2rem;
+	line-height: 1.2rem;
+}
+/*.group-select .item:active{
+	background-color: #e9e9e9;
+}*/
+.group-select .item img{
+	position: absolute;
+	left: .34rem;
+	top: .3rem;
+	width: .78rem;
+	height: .78rem;
+	border-radius: .39rem;
+	vertical-align: middle;
+}
+.group-select .item-name{
+	vertical-align: middle;
+
+	display: inline-block;
+	overflow: hidden;
+	max-width: 80%;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+.group-select .item-body{
+	margin-left: 1.46rem;
+	border-bottom: solid 1px #e3ebf0;
+}
+
+.ios .group-select .bd{
+	position: absolute;
+	top: .88rem;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	overflow-y: auto; 
+}
